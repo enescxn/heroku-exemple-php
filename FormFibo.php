@@ -2,7 +2,7 @@
 	require( "init.php" );
 	
 	$Title = "Fibonacci";
-	include( "../Common/HTMLHead.php" );
+	include( "./Common/HTMLHead.php" );
 ?>
 	<script src="javascript.js"></script>
 	
@@ -19,4 +19,4 @@
 	</form>
 	<br/>
 	<pre><?php include( "ActionFibo.php" ); ?></pre>
-<?php include( "../Common/HTMLEnd.php" ); ?>
+<?php include( "./Common/HTMLEnd.php" ); ?>
